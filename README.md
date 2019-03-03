@@ -3,9 +3,10 @@ A Python 3/4 distributed cipher encoder and decoder
 
 Version 1.0
 
-This script encodes a specified file into four separate encoded files with the command: dist_cipher.py -e <filename>
+This script encodes a specified file into four separate encoded files with the command: dist_cipher.py -e filename
+  
 A copy of the original specified file may be obtained if any three, but no less, of the four encoded files are available by using
-the command: dist_cipher.py -d <filename>
+the command: dist_cipher.py -d filename
   
 The way the encoding works is to represent each bit of the original file in the encoded files with two bits. The two bits
 may be a number from 0 to 3.
